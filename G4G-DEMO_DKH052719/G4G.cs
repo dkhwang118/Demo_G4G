@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace G4G_DEMO_DKH052719
 {
-    static class Program
+    static class G4G
     {
         /// <summary>
         /// The main entry point for the application.
