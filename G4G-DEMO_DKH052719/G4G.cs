@@ -14,9 +14,17 @@ namespace G4G_DEMO_DKH052719
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+           // Application.EnableVisualStyles();
+           // Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Form1());
+
+            Console.WriteLine("******** DEBUG START*******\n");
+
+            MDG_fromXML generator = new MDG_fromXML();
+            generator.GetMDTag(@"C:\\Users\\David\\source\\repos\\G4G-DEMO_DKH052719\\G4G-DEMO_DKH052719\\XML_Bills\\H. R. 1027 (Introduced-in-House).xml");
+
+            Console.ReadLine();
+
         }
     }
 }
