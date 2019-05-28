@@ -11,6 +11,6 @@ namespace G4G_DEMO_DKH052719
         /// <summary>
         /// Gets all the metadata associated with given document
         /// </summary>
-        void GetMDTag();
+        void GetMDTag(object var);
     }
 }
